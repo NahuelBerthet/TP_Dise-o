@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*  MENU */
+
+.contenedor-header{
+    background: #1e2326;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.contenedor-header header .logo a{
+    font-size: 20px;
+    color: #1CB698;
+    text-decoration: none;
+}
+
+.contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+}
+
+.contenedor-header header nav ul li a{
+    text-align: none;
+    color: #CCC;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5%;
+    text-decoration: none;
+}
+.contenedor-header header nav ul li a:hover{
+    color: #1CB698;
+}
+
+/* SECCION INICIO */
+
+.inicio{
+    background: linear-gradient(to top, rgba(30,40,35,.8), rgba(30,35,40,1)), url(imagenes/fondo-burbujas.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #CCC;
+    display: flex;
+    align-items: center;
+}
+
+.inicio .contenido-banner{
+    padding: 15px;
+    max-width: 350px;
+    margin: auto;
+    background-color: #1e2326;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.inicio .contenido-banner img{
+    border: 5px  solid #1CB698;
+    margin-top: 35px;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.inicio .contenido-banner h1{
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.inicio .contenido-banner h2{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+/* DATOS PERSONALES */
+.datos-personales{
+    background-color: #1e2326;
+    color: #CCC;
+    text-align: center;
+}
+
+.datos-personales h2{
+    text-decoration: underline #1CB698;
+    font-size: 40px;
+    color: #CCC;
+    padding: 20px;
+}
+
+.sobremi{
+    height: 600px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+.sobremi .card {
+    max-height: 300px;
+    width: 325px;
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.sobremi .card .contenido{
+    padding: 16px;
+}
+
+.sobremi .card .contenido h3{
+    color: #1CB698;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.sobremi .card .contenido p{
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 1.3;
+    text-align: left;
+}
+
+.sobremi .card .contenido ul li{
+    text-align: left;
+    margin: 20px;
+    padding: 5px;
+}
+
+/* CONTACTO */
+#contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; 
+    background-color: #1e2326; 
+}
+
+.contenedor-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px; 
+}
+
+
+.contenedor-contacto h2 {
+    font-size: 36px;
+    margin: 0;
+    color: #1CB698;
+}
+
+
+.contenedor-contacto a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #CCC;
+    transition: color 0.3s;
+}
+
+.contenedor-contacto a:hover {
+    color: #1CB698;
+}
